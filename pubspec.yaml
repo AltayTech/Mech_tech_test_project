@@ -1,0 +1,45 @@
+name: magic_tech_test_project
+description: A test project for Magic Tech senior flutter developer application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider:
+  sliding_up_panel:
+  flutter_spinkit:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  test:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/CircularStd-Black.otf
+        #        - asset: assets/fonts/CircularStd-BlackItalic.otf
+        - asset: assets/fonts/CircularStd-Bold.otf
+        #        - asset: assets/fonts/CircularStd-BoldItalic.otf
+        - asset: assets/fonts/CircularStd-Book.otf
+        #        - asset: assets/fonts/CircularStd-BookItalic.otf
+        - asset: assets/fonts/CircularStd-Medium.otf
+          #        - asset: assets/fonts/CircularStd-MediumItalic.otf
+          weight: 700
