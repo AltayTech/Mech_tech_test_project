@@ -2,15 +2,10 @@
 
 A test project for Magic Tech senior flutter developer application
 
-## Getting Started
+In this project we used provider for state management because of it is easy to use and manage data around the app.
+Also it is powerful enough for vast of projects.
 
-This project is a starting point for a Flutter application.
+Only package which I used in the project is The Provider in order to implement state management.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this project I implemented unit test, widget test and integrated test as sample to show how 
+I can work with Test in flutter.So, This test does not cover all parts and components in the app

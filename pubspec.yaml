@@ -12,9 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
   provider:
-  sliding_up_panel:
-  flutter_spinkit:
-
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
